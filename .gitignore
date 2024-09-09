@@ -1,1 +1,2 @@
-flask_virtual_env
+flask_virtual_env/
+__pycache__/
