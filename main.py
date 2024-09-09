@@ -5,4 +5,4 @@ app = Flask(__name__)
 @app.route('/')
 @app.route("/welcome")
 def welcome():
-    return "<h1>Welcome to the Bulletin! </h1>"
+    return render_template('welcome.html')
