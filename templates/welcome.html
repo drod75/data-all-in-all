@@ -4,7 +4,9 @@
     <title>My Site</title>
     <link rel="stylesheet" href="{{ url_for('static',filename='styles/header.css')}}">
     <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
-
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/sidebar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/fonts.css') }}">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
@@ -14,8 +16,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="header handjet-blocky">
-      <div class="header header-center ">Welcome to the Data Analysis Packager!</div>
-    </div>
+    <header class="header handjet-font">
+      <div class="left-section">left</div>
+      <div class="middle-section">Welcome to the Data Analysis Packager!</div'>
+      <div class="right-section">right</div>
+    </header>
   </body>
 </html>

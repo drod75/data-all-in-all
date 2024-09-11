@@ -1,12 +1,31 @@
-.header{
-    background-color: rgb(61, 231, 45);
-    color: white;
-    font-size: 20px;
-    height: 30px;
-    margin-top: 0;
-    margin-bottom: 0;
+.header {
+  height: 55px;
+  position: fixed;
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 25px;
+
+  background-color: rgb(19, 176, 19);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228, 228, 228);
 }
-.header-center{
-    text-align: center;
-    margin: 0;
+.left-section {
+  margin-left: 20px;
+  align-items: center;
+  background-color: red;
+}
+.middle-section {
+  max-width: 350px;
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: center;
+  background-color: blue;
+}
+.right-section {
+  margin-right: 20px;
+  align-items: center;
+  background-color: yellow;
 }
