@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>My Site</title>
+    
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/header.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/sidebar.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/fonts.css')}}">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class ='handjet-font'>Data Processing Net</h1>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar handjet-font">
+      <ul>
+        <!-- Page per Bar -->
+        <li><a href="{{ url_for('home') }}">Welcome</a></li>
+      </ul>
+    </nav>
+
+  </body>
+</html>
