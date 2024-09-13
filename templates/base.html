@@ -15,13 +15,15 @@
     <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/sidebar.css')}}">
     <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/fonts.css')}}">
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-
+    <!-- Fonts Galore -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <h1 class ='handjet-font'>Data Processing Net</h1>
@@ -33,6 +35,10 @@
         <li><a href="{{ url_for('home') }}">Welcome</a></li>
       </ul>
     </nav>
+
+    <!-- Info Area -->
+    {% block content%}
+    {% endblock %}
 
   </body>
 </html>
