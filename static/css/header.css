@@ -1,3 +1,8 @@
+.bi{
+  background-image: url('../imgs/wb.jpg');
+  margin-bottom: 0px;
+}
+
 .navbar {
   background-color: hsl(0, 0%, 25%);
 }
@@ -24,4 +29,9 @@
 
 .navbar li {
   float: left;
+}
+
+.page_header{
+  text-align: center;
+  font-weight: bold;
 }

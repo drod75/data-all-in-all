@@ -18,3 +18,9 @@ p {
   padding-left: 10px;
   padding-right: 10px;
 }
+.art{
+  background-image: url('../imgs/The_King_is_dead!.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}

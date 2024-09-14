@@ -16,7 +16,10 @@
       crossorigin="anonymous"
     />
 
-    <title>My Site</title>
+    <title>
+      {% block title %}
+      {% endblock %}
+    </title>
 
     <link
       rel="stylesheet"
@@ -27,11 +30,6 @@
       rel="stylesheet"
       type="text/css"
       href="{{url_for('static',filename='css/style.css')}}"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="{{url_for('static',filename='css/sidebar.css')}}"
     />
     <link
       rel="stylesheet"
@@ -54,14 +52,16 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <h1 class="handjet-font">Data Processing Net</h1>
+  <body class="art">
+    <h1 class="handjet-font bi">Data Processing Net</h1>
 
     <!-- Navigation Bar -->
     <nav class="navbar handjet-font">
       <ul>
         <!-- Page per Bar -->
         <li><a href="{{ url_for('home') }}">Welcome</a></li>
+        <li><a href="{{ url_for('data_cleaning') }}">Clean</a></li>
+        <li><a href="{{ url_for('data_processing') }}">Process</a></li>
       </ul>
     </nav>
 
