@@ -1,4 +1,14 @@
+![img](static\imgs\wb.jpg)
 A simple project made to understand flask and how it can be used for a variety of purposes.
+
+### How To Run
+Steps:
+* First you need to fork the project
+* Second clone the repo in vscode or wherever you will run it
+* Third make sure you download the right packages, they are all in (the reqs)[requirements.txt]
+* Fourth in the command prompt, NOT POWERSHELL USE CMD, then use: **Set flask_app=routes.py**
+* Finally, use: **flask run**
+* ENJOY!!!
 
 ### Credits
 Images:
