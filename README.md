@@ -1,4 +1,4 @@
-![img](static\imgs\wb.jpg)
+![img](https://github.com/drod75/flask_project/blob/master/static/imgs/wb.jpg)
 # ***DATA ALL IN ONE:***
 A simple project made to understand flask and how it can be used for a variety of purposes.
 
