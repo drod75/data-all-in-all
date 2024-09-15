@@ -17,9 +17,9 @@
     />
 
     {% if title %}
-        <title>Data All in One: {{ title }}</title>
+    <title>Data All in One: {{ title }}</title>
     {% else %}
-        <title>Flask Blog</title>
+    <title>Flask Blog</title>
     {% endif %}
 
     <link
@@ -39,6 +39,10 @@
     />
 
     <!-- Fonts Galore -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -63,8 +67,18 @@
         <li><a href="{{ url_for('home') }}">Welcome</a></li>
         <li><a href="{{ url_for('data_cleaning') }}">Clean</a></li>
         <li><a href="{{ url_for('data_processing') }}">Process</a></li>
-        <li><a href="{{ url_for('login') }}">Login</a></li>
-        <li><a href="{{ url_for('register') }}">Register</a></li>
+      </ul>
+
+      <ul>
+        <li style="text-align: right"></li>
+          <a href="{{ url_for('account') }}">Account</a>
+        </li>
+        <li style="text-align: right">
+          <a href="{{ url_for('login') }}">Login</a>
+        </li>
+        <li style="text-align: right">
+          <a href="{{ url_for('register') }}">Register</a>
+        </li>
       </ul>
     </nav>
 

@@ -9,6 +9,10 @@ app.config['SECRET_KEY'] = 'd23b5a76c202b3ab3c4d5bccf4b1d985'
 def home():
     return render_template('home.html', title='Home')
 
+@app.route('/account')
+def account():
+    return render_template('account.html', title='Account')
+
 @app.route("/register", methods=['GET', 'POST'])
 def register():
     form = RegisterForm()
@@ -26,7 +30,7 @@ def login():
             return redirect(url_for('home'))
         else:
             flash('Login Unsuccessful. Please check username and password', 'danger')
-    return render_template('login.html', form=form, title='Home')
+    return render_template('login.html', form=form, title='Login')
 
 @app.route('/data-cleaning')
 def data_cleaning():
