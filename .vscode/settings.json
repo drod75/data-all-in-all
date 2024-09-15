@@ -3,6 +3,7 @@
         "ELGR",
         "ELSH",
         "handjet",
-        "Pinterest"
+        "Pinterest",
+        "wtforms"
     ]
 }
